@@ -13,6 +13,13 @@ setup(
     license='LICENSE.txt',
     install_requires=["emcee >= 3.0rc2"],
     cmdclass = {'build_ext': build_ext},
+    packages=[
+        "hierarchicalinc",
+        #"hierarchicalinc.HierarchicalAngles",
+        #"hierarchicalinc.models",
+        #"hierarchicalinc.integrands",
+        #"hierarchicalinc.utilities",
+    ],
     ext_modules= [Extension("hierarchicalinc.integrands", ["hierarchicalinc/integrands.pyx"], #cythonize('integrands.pyx'),
                  include_dirs=[np.get_include()])]
 )
