@@ -7,6 +7,9 @@ __pycache__/
 *.so
 *.c
 
+# Ignore ExampleRun files
+ExampleRun/
+
 # Distribution / packaging
 .Python
 build/
