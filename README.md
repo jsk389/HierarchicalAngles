@@ -1,7 +1,7 @@
 # HierarchicalAngles
 #### Code to infer the inclination angle of a star using the Bayesian Hierarchical method outlined in Kuszlewicz et al. (accepted).
 
-[![](https://img.shields.io/badge/Github-jsk389%2FHierarchicalAngles-blue.svg)](https://github.com/jsk389/HierarchicalAngles)
+[![](https://img.shields.io/badge/Github-jsk389%2FHierarchicalAngles-blue.svg)](https://github.com/jsk389/HierarchicalAngles) [![](https://img.shields.io/badge/arXiv-1907.01565-orange.svg)](https://arxiv.org/abs/1907.01565)
 
 The purpose of this code is to infer the underlying inclination angle of a star given a set of noise measurements (posterior distributions) of the inclination angle, for example, from individual mixed modes in a red giant.
 
